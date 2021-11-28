@@ -50,7 +50,7 @@ print(percentage)
 
 if percentage > 1:
     news_url = "https://newsapi.org/v2/everything"
-    news_api_key = "798021dd939d45a38cb28ab7ec68ca84"
+    news_api_key = "your news api key"
     news_params = {
         "qinTitle": COMPANY_NAME,
         "apiKey": news_api_key
